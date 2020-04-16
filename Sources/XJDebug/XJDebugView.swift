@@ -131,6 +131,10 @@ open struct XJStudent {
     open var score = 10
     public var name = "123"
 }
+open class XJTeacher {
+    open var height = 20
+    public var name = "zh12ang"
+}
 
 #endif
 public class XJMemory {
