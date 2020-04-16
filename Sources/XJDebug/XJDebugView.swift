@@ -30,7 +30,7 @@ open class XJDebugView: UIView {
        public func stop() {
            timer.isPaused = true
        }
-       required init?(coder: NSCoder) {
+       public required init?(coder: NSCoder) {
            fatalError("init(coder:) has not been implemented")
        }
        private func loadSubLayers()  {
@@ -127,8 +127,8 @@ extension XJDebugView {
   
 }
 
-open struct XJStudent {
-    open var score = 10
+public struct XJStudent {
+    public var score = 10
     public var name = "123"
 }
 open class XJTeacher {
